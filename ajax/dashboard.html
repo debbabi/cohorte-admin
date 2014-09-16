@@ -55,9 +55,9 @@
 	<div id="dashboard_links" class="col-xs-12 col-sm-2 pull-right">
 		<ul class="nav nav-pills nav-stacked">
 			<li class="active"><a href="#" class="tab-link" id="overview">Overview</a></li>
-			<li><a href="#" class="tab-link" id="clients">Clients</a></li>
-			<li><a href="#" class="tab-link" id="graph">Statistics</a></li>
-			<li><a href="#" class="tab-link" id="servers">Servers</a></li>
+			<li><a href="#" class="tab-link" id="clients">Nodes</a></li>
+			<li><a href="#" class="tab-link" id="graph">Isolates</a></li>
+			<li><a href="#" class="tab-link" id="servers">History</a></li>
 		</ul>
 	</div>
 	<div id="dashboard_tabs" class="col-xs-12 col-sm-10">
@@ -140,7 +140,7 @@
 				</table>
 			</div>
 			<div class="col-xs-12 col-md-6">
-				<div id="ow-donut" class="row">
+				<!--div id="ow-donut" class="row">
 					<div class="col-xs-4">
 						<div id="morris_donut_1" style="width:120px;height:120px;"></div>
 					</div>
@@ -150,10 +150,10 @@
 					<div class="col-xs-4">
 						<div id="morris_donut_3" style="width:120px;height:120px;"></div>
 					</div>
-				</div>
+				</div-->
 				<div id="ow-activity" class="row">
 					<div class="col-xs-2 col-sm-1 col-md-2">
-						<div class="v-txt">ACTIVITY</div>
+						<div class="v-txt">LAST LOGs</div>
 					</div>
 					<div class="col-xs-7 col-sm-5 col-md-6">
 						<div class="row"><i class="fa fa-code"></i> Release published <span class="label label-default pull-right">01:17:34</span></div>
@@ -181,16 +181,16 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
-									<div class="col-xs-6">Total commits<b>1245634</b></div>
-									<div class="col-xs-6">Release count<b>227</b></div>
+									<div class="col-xs-6">Total Nodes<b>13</b></div>
+									<div class="col-xs-6">Total Isolates<b>34</b></div>
 								</div>
 								<div class="row">
-									<div class="col-xs-6">Tests passed<b>5222345</b></div>
-									<div class="col-xs-6">Tickets solved<b>324322</b></div>
+									<div class="col-xs-6">Active Nodes<b>13</b></div>
+									<div class="col-xs-6">Cohorte Isolates<b>13</b></div>
 								</div>
 								<div class="row">
-									<div class="col-xs-6">Active clients<b>52145</b></div>
-									<div class="col-xs-6">Support team<b>288</b></div>
+									<div class="col-xs-6">Node errors<b>0</b></div>
+									<div class="col-xs-6">Application Isolates<b>21</b></div>
 								</div>
 							</div>
 						</div>

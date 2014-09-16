@@ -10,55 +10,98 @@
 <!--End Breadcrumb-->
 <h3 class="page-header">spellcheck-demo-application</h3>
 <p>This is a demo application for using COHORTE platform.</p>
-<div class="well">
-	<div class="row">
-		<div class="col-sm-12">
-		  <pre><code>
 
-<br/>{
-<br/>	"name" : "spellchecker-demo-app",
-<br/>	"root" : {
-<br/>		"name" : "spellchecker-demo",
-<br/>		"components" : [ {
-<br/>			/**
-<br/>			 * EN Dictionary
-<br/>			 */
-<br/>			"name" : "dictionary_en_python",
-<br/>			"factory" : "spell_dictionary_en_factory",
-<br/>			"language" : "python"
-<br/>		}, {
-<br/>			/**
-<br/>			 * FR Dictionary
-<br/>			 */
-<br/>			"name" : "dictionary_fr_python",
-<br/>			"factory" : "spell_dictionary_fr_factory",
-<br/>			"language" : "python"
-<br/>		}, {
-<br/>			/**
-<br/>			 * Spell Checker
-<br/>			 */
-<br/>			"name" : "spell_checker_python",
-<br/>			"factory" : "spell_checker_factory",
-<br/>			"language" : "python"
-<br/>		}, {
-<br/>			/**
-<br/>			 * Spell Client
-<br/>			 */
-<br/>			"name" : "spell_client_python",
-<br/>			"factory" : "spell_client_factory",
-<br/>			"language" : "python"
-<br/>		}/*, {
-<br/>			
-<br/>			"name" : "web_admin",
-<br/>			"factory" : "cohorte-web-admin-factory",
-<br/>			"language" : "python",
-<br/>			"isolate" : "admin-isolate"
-<br/>		}*/ ]
-<br/>	}
-<br/>}
+<div class="row">
+	<div class="col-xs-12">
+		<div class="box">
+			<div class="box-header">
+				<div class="box-name">
+					<i class="fa fa-linux"></i>
+					<span>autorun_conf.js</span>
+				</div>
+				<div class="box-icons">
+					<a class="collapse-link">
+						<i class="fa fa-chevron-up"></i>
+					</a>
+					<a class="expand-link">
+						<i class="fa fa-expand"></i>
+					</a>
+					<!--a class="close-link">
+						<i class="fa fa-times"></i>
+					</a-->
+				</div>
+				<div class="no-move"></div>
+			</div>
+			<div class="box-content no-padding table-responsive">
+				<div class="box-content">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">JSON</a></li>
+						<li><a href="#tabs-2">XML</a></li>
+						<li><a href="#tabs-3">GUI</a></li>
+					</ul>
+					<div id="tabs-1">
+						<p>
+							<pre><code>
 
-		  </code></pre>
-		</div>		
+								<br/>{
+								<br/>	"name" : "spellchecker-demo-app",
+								<br/>	"root" : {
+								<br/>		"name" : "spellchecker-demo",
+								<br/>		"components" : [ {
+								<br/>			/**
+								<br/>			 * EN Dictionary
+								<br/>			 */
+								<br/>			"name" : "dictionary_en_python",
+								<br/>			"factory" : "spell_dictionary_en_factory",
+								<br/>			"language" : "python"
+								<br/>		}, {
+								<br/>			/**
+								<br/>			 * FR Dictionary
+								<br/>			 */
+								<br/>			"name" : "dictionary_fr_python",
+								<br/>			"factory" : "spell_dictionary_fr_factory",
+								<br/>			"language" : "python"
+								<br/>		}, {
+								<br/>			/**
+								<br/>			 * Spell Checker
+								<br/>			 */
+								<br/>			"name" : "spell_checker_python",
+								<br/>			"factory" : "spell_checker_factory",
+								<br/>			"language" : "python"
+								<br/>		}, {
+								<br/>			/**
+								<br/>			 * Spell Client
+								<br/>			 */
+								<br/>			"name" : "spell_client_python",
+								<br/>			"factory" : "spell_client_factory",
+								<br/>			"language" : "python"
+								<br/>		}/*, {
+								<br/>			
+								<br/>			"name" : "web_admin",
+								<br/>			"factory" : "cohorte-web-admin-factory",
+								<br/>			"language" : "python",
+								<br/>			"isolate" : "admin-isolate"
+								<br/>		}*/ ]
+								<br/>	}
+								<br/>}
+
+						  	</code></pre>
+						</p>
+					</div>
+					<div id="tabs-2">
+						<p>
+							XML Format (not yet supported!)
+						</p>
+					</div>
+					<div id="tabs-3">
+						<p>
+							Graphical format (Not yet implemented!)
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <div style="height: 40px;"></div>

@@ -110,7 +110,10 @@
 var sparkline_arr_1 = SparklineTestData();
 var sparkline_arr_2 = SparklineTestData();
 var sparkline_arr_3 = SparklineTestData();
+
 $(document).ready(function() {
+	// Create jQuery-UI tabs
+	$("#tabs").tabs();
 	// Make all JS-activity for dashboard
 	DashboardTabChecker();
 	// Load Knob plugin and run callback for draw Knob charts for dashboard(tab-servers)

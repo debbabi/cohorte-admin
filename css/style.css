@@ -1751,6 +1751,10 @@ td.beauty-hover {
   padding-top: 8px;
   padding-bottom: 25px;
 }
+.ow-tab {
+  padding-top: 8px;
+  padding-bottom: 25px;
+}
 .ow-server:hover {
   background:#e7e7e7;
 }

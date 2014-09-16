@@ -213,68 +213,73 @@
 		<!--End Dashboard Tab 1-->
 		<!--Start Dashboard Tab 2-->
 		<div id="dashboard-clients" class="row" style="visibility: hidden; position: absolute;">
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-users"></i></div>
-				<div class="col-xs-2"><b>Country</b></div>
-				<div class="col-xs-2">Visitors</div>
-				<div class="col-xs-2">Page hits</div>
-				<div class="col-xs-2">Revenue</div>
-				<div class="col-xs-1">Activity</div>
-				<div class="col-xs-2">Date</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>USA</b></div>
-				<div class="col-xs-2">109455</div>
-				<div class="col-xs-2">54322344</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 354563</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/31/13</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>U.K.</b></div>
-				<div class="col-xs-2">86549</div>
-				<div class="col-xs-2">43242344</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 265563</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/25/13</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>FRANCE</b></div>
-				<div class="col-xs-2">79399</div>
-				<div class="col-xs-2">45376844</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 309456</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/30/13</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>GERMANY</b></div>
-				<div class="col-xs-2">94567</div>
-				<div class="col-xs-2">35322344</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 301040</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/26/13</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>CANADA</b></div>
-				<div class="col-xs-2">89525</div>
-				<div class="col-xs-2">1342344</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 298764</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/30/13</div>
-			</div>
-			<div class="row one-list-message">
-				<div class="col-xs-1"><i class="fa fa-user"></i></div>
-				<div class="col-xs-2"><b>CHINA</b></div>
-				<div class="col-xs-2">120865</div>
-				<div class="col-xs-2">43522344</div>
-				<div class="col-xs-2"><i class="fa fa-usd"></i> 776563</div>
-				<div class="col-xs-1"><span class="bar"></span></div>
-				<div class="col-xs-2 message-date">12/29/13</div>
+			<h4 class="page-header">LAST ACTIVE NODES</h4>
+				<table id="ticker-table" class="table m-table table-bordered table-hover table-heading">
+					<thead>
+						<tr>
+							<th>Node</th>
+							<th>OS</th>
+							<th>OS version</th>
+							<th>Weekly Chart</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="m-ticker"><b>Central</b><span>192.168.0.18:9100</span></td>
+							<td class="m-price">Mac Os x</td>
+							<td class="m-change">10.6</td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>RaspberryPi-1</b><span>192.168.0.17:9100</span></td>
+							<td class="m-price">Debian</td>
+							<td class="m-change"> 6.32 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>RaspberryPi-2</b><span>192.168.0.16:9100</span></td>
+							<td class="m-price">Debian</td>
+							<td class="m-change">7.2 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>RaspberryPi-3</b><span>192.168.0.15:9100</span></td>
+							<td class="m-price">Ubuntu</td>
+							<td class="m-change">5.3 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>ALK</b><span>192.168.0.14:9100</span></td>
+							<td class="m-price">Ubuntu</td>
+							<td class="m-change">7.5 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>LNISW</b><span>192.168.0.13:9100</span></td>
+							<td class="m-price">CentOs</td>
+							<td class="m-change">54.3 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>RNLD</b><span>192.168.0.12:9100</span></td>
+							<td class="m-price">Windows</td>
+							<td class="m-change">12.33 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>BCN</b><span>192.168.0.11:9100</span></td>
+							<td class="m-price">Windows</td>
+							<td class="m-change">12.33 </td>
+							<td class="td-graph"></td>
+						</tr>
+						<tr>
+							<td class="m-ticker"><b>AWS</b><span>192.168.0.10:9100</span></td>
+							<td class="m-price">Mac Os x</td>
+							<td class="m-change">12.33 </td>
+							<td class="td-graph"></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 		<!--End Dashboard Tab 2-->
